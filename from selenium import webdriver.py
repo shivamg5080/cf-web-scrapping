@@ -40,7 +40,7 @@ def get_submission_counts(username):
         print("An error occurred:", e)
         return 0, 0
 
-# Example usage:
+# mExample usage:
 def plot_submission_counts(username):
     accepted_count, not_accepted_count = get_submission_counts(username)
 
